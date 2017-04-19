@@ -15,6 +15,9 @@
 		FB206BC31EA74874000080DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FB206BC11EA74874000080DC /* LaunchScreen.storyboard */; };
 		FB206BCE1EA74874000080DC /* TableViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB206BCD1EA74874000080DC /* TableViewTests.swift */; };
 		FB206BD91EA74874000080DC /* TableViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB206BD81EA74874000080DC /* TableViewUITests.swift */; };
+		FB206BEB1EA74975000080DC /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB206BEA1EA74975000080DC /* Product.swift */; };
+		FB206BED1EA749C1000080DC /* ProductLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB206BEC1EA749C1000080DC /* ProductLine.swift */; };
+		FB206BEF1EA74B74000080DC /* ProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB206BEE1EA74B74000080DC /* ProductTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		FB206BD41EA74874000080DC /* TableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB206BD81EA74874000080DC /* TableViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewUITests.swift; sourceTree = "<group>"; };
 		FB206BDA1EA74874000080DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FB206BEA1EA74975000080DC /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		FB206BEC1EA749C1000080DC /* ProductLine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductLine.swift; sourceTree = "<group>"; };
+		FB206BEE1EA74B74000080DC /* ProductTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +108,12 @@
 				FB206BB51EA74874000080DC /* AppDelegate.swift */,
 				FB206BB71EA74874000080DC /* ViewController.swift */,
 				FB206BB91EA74874000080DC /* Main.storyboard */,
+				FB206BEE1EA74B74000080DC /* ProductTableViewController.swift */,
 				FB206BBF1EA74874000080DC /* Assets.xcassets */,
 				FB206BC11EA74874000080DC /* LaunchScreen.storyboard */,
 				FB206BC41EA74874000080DC /* Info.plist */,
 				FB206BBC1EA74874000080DC /* TableView.xcdatamodeld */,
+				FB206BE61EA74894000080DC /* Model */,
 			);
 			path = TableView;
 			sourceTree = "<group>";
@@ -126,6 +134,15 @@
 				FB206BDA1EA74874000080DC /* Info.plist */,
 			);
 			path = TableViewUITests;
+			sourceTree = "<group>";
+		};
+		FB206BE61EA74894000080DC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FB206BEA1EA74975000080DC /* Product.swift */,
+				FB206BEC1EA749C1000080DC /* ProductLine.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,7 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FB206BB81EA74874000080DC /* ViewController.swift in Sources */,
+				FB206BEB1EA74975000080DC /* Product.swift in Sources */,
+				FB206BED1EA749C1000080DC /* ProductLine.swift in Sources */,
 				FB206BBE1EA74874000080DC /* TableView.xcdatamodeld in Sources */,
+				FB206BEF1EA74B74000080DC /* ProductTableViewController.swift in Sources */,
 				FB206BB61EA74874000080DC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
